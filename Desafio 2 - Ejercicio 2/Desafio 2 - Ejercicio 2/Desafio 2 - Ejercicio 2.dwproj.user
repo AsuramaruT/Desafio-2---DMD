@@ -1,0 +1,29 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>Mobility SV</Id>
+            <Name>Mobility SV</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANUj3dzYoVkyFnZERUI1G3AAAAAAYAAAATQBvAGIAaQBsAGkAdAB5ACAAUwBWAAAAEGYAAAABAAAgAAAAxmCuksnSO6jN7ssCnk/T2fgJ9B92DH1bVQzwcCE/KoEAAAAADoAAAAACAAAgAAAAdRi3Qmybk3Ji+8YngcX/MrrXaYOFUfNFKSZmlkHPangQAAAAGDbI2xUMatYOAsyzMyNo60AAAAAipQbjsyhlJhAnyo/sYs6TGCSTiVqRXRZJ2yvg5E/4doo07XNWHmOtGcBTTQmxIIYCAQy48I0Nd/0ywB7LeSwO</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>Mobility SV</Id>
+            <Name>Mobility SV</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANUj3dzYoVkyFnZERUI1G3AAAAAAYAAAATQBvAGIAaQBsAGkAdAB5ACAAUwBWAAAAEGYAAAABAAAgAAAAdfvwudqJN4SscWw1aInUhK7cIBkmsP/1I9OkwRF8Wy8AAAAADoAAAAACAAAgAAAAeUbCGERDna61SDzAZQG7h+e8nkxeyY/EbDmKr+aLpRUgAAAAy27Jg41YACtAU4GVEs2bAXTAv3prkjvsQ8CCwsff28lAAAAAxUX8y0F84qym6nlMb/K/C8pigVjfU375fWgHIOCT7SlQJ/u9PBA5FL/BXSV5hnq58r2cg/k2VHznDc+d4D+NLw==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>NORAH-C-IV</TargetServer>
+        <TargetDatabase>Desafio 2 - Ejercicio 2</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

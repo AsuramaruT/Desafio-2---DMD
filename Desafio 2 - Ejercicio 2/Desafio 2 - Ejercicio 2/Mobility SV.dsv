@@ -1,0 +1,134 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="13c55d0e-9b0a-4ccb-8efd-8951b2969815" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Mobility SV</ID>
+  <Name>Mobility SV</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Mobility SV</DataSourceID>
+  <Schema>
+    <xs:schema id="Mobility_x0020_SV" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Mobility_x0020_SV" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="8d8957ce-8906-4a1a-8eb2-448bc0a8892b">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_DimLugar_x0024_" msprop:design-time-name="d41c92a1-73ce-402c-a3b3-f1ae2fb17b3e" msprop:DbTableName="DimLugar$" msprop:FriendlyName="DimLugar$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="RegionKey" msprop:design-time-name="de6b5e9f-152c-4940-9639-79fb7019e079" msprop:DbColumnName="RegionKey" msprop:FriendlyName="RegionKey">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Departamento" msprop:design-time-name="fcc6c4c0-8d63-4621-ba14-75cbf76c8a1d" msprop:DbColumnName="Departamento" msprop:FriendlyName="Departamento">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Pais" msprop:design-time-name="de908b01-db6e-47c2-9727-1de122eda063" msprop:DbColumnName="Pais" msprop:FriendlyName="Pais">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_DimTiempo_x0024_" msprop:design-time-name="802ad724-0eda-4e18-980d-a22376422edd" msprop:DbTableName="DimTiempo$" msprop:FriendlyName="DimTiempo$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TiempoID" msprop:design-time-name="6b747c7f-0b0c-4266-81a6-505e127ec8b9" msprop:DbColumnName="TiempoID" msprop:FriendlyName="TiempoID" type="xs:dateTime" />
+                  <xs:element name="Dia" msprop:design-time-name="540af34d-e7ce-4461-88c1-448550e2f09a" msprop:DbColumnName="Dia" msprop:FriendlyName="Dia" type="xs:int" />
+                  <xs:element name="Mes" msprop:design-time-name="7b0303d3-b42a-4dd3-9a24-17bbb6434ea3" msprop:DbColumnName="Mes" msprop:FriendlyName="Mes" type="xs:int" />
+                  <xs:element name="Año" msprop:design-time-name="70690dd8-047c-4ed8-8712-0ae87daed1b2" msprop:DbColumnName="Año" msprop:FriendlyName="Año" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_FactMobility_x0024_" msprop:design-time-name="c7823a94-db77-4e37-9a0d-bddddb12a19f" msprop:DbTableName="FactMobility$" msprop:FriendlyName="FactMobility$" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="LugarID" msprop:design-time-name="a0ee3ece-f84f-46cb-8822-e984b3f4edb0" msprop:DbColumnName="LugarID" msprop:FriendlyName="LugarID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Parque_espaciosPublicos" msprop:design-time-name="4b2a0730-630e-4e7e-b776-9dd41dc7f69a" msprop:DbColumnName="Parque_espaciosPublicos" msprop:FriendlyName="Parque_espaciosPublicos" type="xs:double" />
+                  <xs:element name="Tiendas_supermercados_Farmacias" msprop:design-time-name="552b7a34-8bf6-4b65-a3a1-54e39e77c975" msprop:DbColumnName="Tiendas_supermercados_Farmacias" msprop:FriendlyName="Tiendas_supermercados_Farmacias" type="xs:double" />
+                  <xs:element name="Comercio_Recreacion" msprop:design-time-name="b79c4929-db54-4cb5-bd18-98efdcff2b2d" msprop:DbColumnName="Comercio_Recreacion" msprop:FriendlyName="Comercio_Recreacion" type="xs:double" />
+                  <xs:element name="Transito" msprop:design-time-name="a05b4754-e6cb-434d-9664-24139704627e" msprop:DbColumnName="Transito" msprop:FriendlyName="Transito" type="xs:double" />
+                  <xs:element name="Trabajo" msprop:design-time-name="d8e01951-fbe8-4d3a-94cb-57643a89656d" msprop:DbColumnName="Trabajo" msprop:FriendlyName="Trabajo" type="xs:double" />
+                  <xs:element name="Residencia" msprop:design-time-name="58c0bd85-ee46-422f-9068-bfc5a2ad5ef9" msprop:DbColumnName="Residencia" msprop:FriendlyName="Residencia" type="xs:double" />
+                  <xs:element name="RegionID" msprop:design-time-name="5d12ebf8-5e58-4611-afdd-ac8dfa3ff381" msprop:DbColumnName="RegionID" msprop:FriendlyName="RegionID">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="255" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="TiempoID" msprop:design-time-name="37d40e38-1344-4104-a78c-09a9f6ebd4e8" msprop:DbColumnName="TiempoID" msprop:FriendlyName="TiempoID" type="xs:dateTime" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimLugar_x0024_" />
+          <xs:field xpath="RegionKey" />
+        </xs:unique>
+        <xs:unique name="dbo_DimTiempo_x0024__Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_DimTiempo_x0024_" />
+          <xs:field xpath="TiempoID" />
+        </xs:unique>
+        <xs:keyref name="FK_FactMobility_x0024__DimLugar_x0024_" refer="Constraint1">
+          <xs:selector xpath=".//dbo_FactMobility_x0024_" />
+          <xs:field xpath="RegionID" />
+        </xs:keyref>
+        <xs:keyref name="FK_FactMobility_x0024__DimTiempo_x0024_" refer="dbo_DimTiempo_x0024__Constraint1">
+          <xs:selector xpath=".//dbo_FactMobility_x0024_" />
+          <xs:field xpath="TiempoID" />
+        </xs:keyref>
+      </xs:element>
+    </xs:schema>
+    <Mobility_x0020_SV xmlns="" />
+  </Schema>
+</DataSourceView>
